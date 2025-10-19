@@ -1,0 +1,12 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = 'cheems的随笔'
+theme = 'FixIt'
+defaultContentLanguage = 'zh-cn'
+
+[markup]
+  _merge = "shallow"
+[outputs]
+  _merge = "shallow"
+[taxonomies]
+  _merge = "shallow"
