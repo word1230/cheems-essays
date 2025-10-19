@@ -5,9 +5,9 @@ date: 2025-10-20T00:04:42+08:00
 type: posts
 slug: cbb9bd43
 categories: 
-  - 分类
+  - AI
 collections: 
-  - 合集
+  - 2api工具的学习
 draft: false   
 ---
 

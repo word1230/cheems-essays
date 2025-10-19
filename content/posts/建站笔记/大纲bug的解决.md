@@ -5,9 +5,9 @@ date: 2025-10-20T00:27:47+08:00
 type: posts
 slug: cbb9bd42 # 随机字符串
 categories: 
-  - 分类
+  - 建站笔记
 collections: 
-  - 合集
+  - hugo建站
 draft: false    
 ---
 
@@ -46,7 +46,7 @@ Contents:
 
 3. 简单来说，**罪魁祸首是包含了特殊字符的“脏”URL**，而不是 Hugo 本身或主题的 Bug。
 
-## 解决： 配置永久链接（Permalinks）与 Slug（推荐）
+## 解决： 配置永久链接（Permalinks）与 Slug
 
 - 既然 url 出了问题，修改生成的 url 即可
 
