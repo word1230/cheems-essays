@@ -17,9 +17,12 @@ Contents:
 - 解决方法
 
 **环境说明:**
-*   **操作系统:** Windows 10
-*   **Hugo 版本:** v0.151.2
-*   **主题:** FixIt
+
+- **操作系统:** Windows 10
+
+- **Hugo 版本:** v0.151.2
+
+- **主题:** FixIt
 
 <!--more-->
 
@@ -37,9 +40,9 @@ Contents:
 
 1. Hugo 默认会根据你的文件路径来生成文章的 URL。对于上述路径，生成的 URL 可能会是这样的：`https://your-site/posts/学习 Java/Java 基础/`
 
-   问题就出在这个 URL 上。URL 中包含了未经处理的**中文字符** 
+   问题就出在这个 URL 上。URL 中包含了未经处理的**中文字符**
 
-2. 大多数主题（包括 FixIt）的大纲功能是依靠 JavaScript 在前端动态生成的。这些脚本需要解析当前页面的 URL 来定位标题、生成链接。当 URL 包含这些非标准的特殊字符时，JavaScript 的 `URL encoder` 或解析器可能会出错，导致脚本无法正确定位或执行，最终使得大纲生成失败。 
+2. 大多数主题（包括 FixIt）的大纲功能是依靠 JavaScript 在前端动态生成的。这些脚本需要解析当前页面的 URL 来定位标题、生成链接。当 URL 包含这些非标准的特殊字符时，JavaScript 的 `URL encoder` 或解析器可能会出错，导致脚本无法正确定位或执行，最终使得大纲生成失败。
 
 3. 简单来说，**罪魁祸首是包含了特殊字符的“脏”URL**，而不是 Hugo 本身或主题的 Bug。
 
@@ -53,9 +56,9 @@ Contents:
 
 - 操作步骤
 
-  - 打开 根目录/config/_default/hugo.toml 
+  - 打开 根目录/config/_default/hugo.toml
 
-  - 搜索 `[permalinks]` 在其下增加一行 `posts = "/:section/:slug/"`       
+  - 搜索 `[permalinks]` 在其下增加一行 `posts = "/:section/:slug/"`
 
     ```toml
     [permalinks]
@@ -68,7 +71,7 @@ Contents:
     slug: {{ substr (md5 (printf "%s%d" .Name now.Unix)) 0 8 }}  # 随机生成8位字符串
     ```
   
-  - 同时为了保证本地使用的多级目录可以被识别,元信息需要添加 type字段 
+  - 同时为了保证本地使用的多级目录可以被识别,元信息需要添加 type字段
   
     ```toml
     type: posts

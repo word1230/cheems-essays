@@ -18,6 +18,8 @@ Overview:
   - qwen iflow
   - 第三方站
 
+项目地址： <https://github.com/router-for-me/CLIProxyAPI> 膜拜大佬
+
 <!--more-->
 
 ## 工具的作用
