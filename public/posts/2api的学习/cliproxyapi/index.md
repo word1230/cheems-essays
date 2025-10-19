@@ -1,21 +1,12 @@
----
-title: "Cliproxy工具的使用"
-description: "Cliproxy的使用"  
-date: 2025-10-19T23:51:19+08:00
-categories: 
-  - AI
-collections: 
-  - 2api工具的学习
-draft: false   
----
+# CliProxyAPI
+
 
 Overview:
 
 - 工具的作用
-- qwen iflow 实战
-- 第三方的接入
-
-工具来源：`https://github.com/router-for-me/CLIProxyAPI ` 膜拜大佬的工具
+- 如何使用
+  - qwen iflow
+  - 第三方站
 
 <!--more-->
 
@@ -73,3 +64,10 @@ iflow也同理
    找到`openai-compatibility:`项 填写base-url，api-key，models即可
 
 2. 打开exe即可使用
+
+
+---
+
+> 作者: cheems  
+> URL: http://localhost:1313/posts/2api%E7%9A%84%E5%AD%A6%E4%B9%A0/cliproxyapi/  
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2api工具的学习 - 合集 - cheems的随笔</title>
+    <link>http://localhost:1313/collections/2api%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AD%A6%E4%B9%A0/</link>
+    <description>cheems的随笔</description>
+    <generator>Hugo 0.151.2 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 19 Oct 2025 23:51:19 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/collections/2api%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cliproxy工具的使用</title>
+      <link>http://localhost:1313/posts/2api%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AD%A6%E4%B9%A0/cliproxy%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Sun, 19 Oct 2025 23:51:19 +0800</pubDate>
+      <guid>http://localhost:1313/posts/2api%E5%B7%A5%E5%85%B7%E7%9A%84%E5%AD%A6%E4%B9%A0/cliproxy%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+      <category domain="http://localhost:1313/categories/ai/">AI</category>
+      <description>Cliproxy的使用</description>
+    </item>
+  </channel>
+</rss>
