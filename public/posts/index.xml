@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>所有文章 - cheems的随笔</title>
-    <link>https://example.org/posts/</link>
-    <description>cheems的随笔</description>
+    <title>所有文章 - </title>
+    <link>http://localhost:1313/posts/</link>
+    <description></description>
     <generator>Hugo 0.151.2 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Oct 2025 23:23:42 +0800</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 19 Oct 2025 23:26:55 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>222</title>
-      <link>https://example.org/posts/222/</link>
+      <link>http://localhost:1313/posts/222/</link>
       <pubDate>Sun, 19 Oct 2025 23:23:42 +0800</pubDate>
-      <guid>https://example.org/posts/222/</guid>
-      <category domain="https://example.org/categories/%E5%88%86%E7%B1%BB/">分类</category>
+      <guid>http://localhost:1313/posts/222/</guid>
+      <category domain="http://localhost:1313/categories/%E5%88%86%E7%B1%BB/">分类</category>
       <description>&lt;p&gt;Overview:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;okName好&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

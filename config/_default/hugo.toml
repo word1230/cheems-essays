@@ -17,13 +17,13 @@ baseURL = "https://cheems-essays.pages.dev"
 # theme list
 # theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "zh-CN"
 # language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "简体中文"
 # whether to include Chinese/Japanese/Korean
-hasCJKLanguage = false
+hasCJKLanguage =true 
 # copyright description used only for seo schema
 copyright = ""
 # whether to use robots.txt
@@ -45,17 +45,17 @@ enableEmoji = true
 [menu]
 
 [[menu.main]]
-identifier = "archives"
+identifier = "时间轴"
 parent = ""
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
 post = ""
-name = "Archives"
+name = "时间轴"
 url = "/archives/"
 # title will be shown when you hover on this menu link
-title = ""
-weight = 1
+title = "时间轴"
+weight = 3
 
 # FixIt 0.2.14 | NEW add user-defined content to menu items
 [menu.main.params]
@@ -68,14 +68,14 @@ icon = "fa-solid fa-archive"
 # FixIt 0.2.16 | NEW set menu item type, optional values: ["mobile", "desktop"]
 type = ""
 # FixIt 0.3.9 | NEW whether to show the submenu item divider line
-divided = false
+divided = true
 
 [[menu.main]]
 identifier = "categories"
 parent = ""
 pre = ""
 post = ""
-name = "Categories"
+name = "分类"
 url = "/categories/"
 title = ""
 weight = 2
@@ -84,17 +84,17 @@ weight = 2
 icon = "fa-solid fa-folder-tree"
 
 [[menu.main]]
-identifier = "tags"
+identifier = "collections"
 parent = ""
 pre = ""
 post = ""
-name = "Tags"
-url = "/tags/"
+name = "合集"
+url = "/collections/"
 title = ""
-weight = 3
+weight = 1
 
 [menu.main.params]
-icon = "fa-solid fa-tags"
+icon = "fa-solid fa-folder"
 
 # -------------------------------------------------------------------------------------
 # Related content Configuration
@@ -432,7 +432,7 @@ disableThemeInject = false
 
 # Author Configuration
 [params.author]
-name = ""
+name = "cheems"
 email = ""
 link = ""
 avatar = ""
@@ -468,7 +468,7 @@ dark = "#252627"
 
 # Search config
 [params.search]
-enable = false
+enable = true
 # type of search engine ["algolia", "fuse", "cse", "post-chat"]
 type = "fuse"
 # max index length of the chunked content
@@ -545,9 +545,9 @@ typeit = false
 
 # FixIt 0.2.18 | NEW Breadcrumb config
 [params.breadcrumb]
-enable = false
-sticky = false
-showHome = false
+enable = true
+sticky = true
+showHome = true
 # FixIt 0.3.13 | NEW
 separator = "/"
 capitalize = true
@@ -555,7 +555,7 @@ capitalize = true
 # FixIt 0.3.10 | NEW Post navigation config
 [params.navigation]
 # whether to show the post navigation in section pages scope
-inSection = false
+inSection = true
 # whether to reverse the next/previous post navigation order
 reverse = false
 
@@ -1170,9 +1170,9 @@ endFlag = ""
 # FixIt 0.2.18 | NEW whether to enable instant.page
 instantPage = false
 # FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
-collectionList = false
+collectionList = true
 # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
-collectionNavigation = false
+collectionNavigation = true
 
 # FixIt 0.2.15 | NEW Repost config
 [params.page.repost]
@@ -1190,7 +1190,7 @@ auto = true
 # FixIt 0.2.13 | NEW position of TOC ["left", "right"]
 position = "right"
 # FixIt 0.3.12 | NEW supersede `markup.tableOfContents` settings
-ordered = false
+ordered = true
 startLevel = 2
 endLevel = 6
 # FixIt 0.4.0 | NEW whether to decrease the H1 heading level in content
