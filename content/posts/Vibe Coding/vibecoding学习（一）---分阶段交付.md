@@ -458,7 +458,7 @@ B. 直接开始编写代码
 
 最终成果：
 
-<https://github.com/word1230/flow-tomato >（ 非常简单的前端项目， trae+glm4.6）
+<https://github.com/word1230/flow-tomato>（ 非常简单的前端项目， trae+glm4.6）
 
 <https://github.com/word1230/focus_insight> （根据大佬的示例得到的项目， claude code + glm4.6）
 
