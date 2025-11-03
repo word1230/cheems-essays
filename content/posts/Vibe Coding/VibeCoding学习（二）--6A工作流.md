@@ -5,9 +5,9 @@ date: 2025-10-29T21:52:02+08:00
 type: posts
 slug: ee9b60d1
 categories: 
-  - 分类
+  - AI
 collections: 
-  - 合集
+  - Vibe Coding
 draft: false   
 ---
 
